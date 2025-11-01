@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<annotation>
+  <folder>result_thi</folder>
+  <filename>Thai_1.2.2.4_信息公告类_0295.jpg</filename>
+  <path>D:\paddple_ocr\output\result_thi\Thai_1.2.2.4_信息公告类_0295.xml</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>694</width>
+    <height>422</height>
+  </size>
+  <depth>3</depth>
+  <segmented>0</segmented>
+  <object>
+    <name>text</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>8</xmin>
+      <ymin>73</ymin>
+      <xmax>686</xmax>
+      <ymax>113</ymax>
+    </bndbox>
+    <text>โครงการมหกรรมไกล่เกลี่ยเรื่องร้องทุกข์ของผู้บริโกค ครั้งที่ 3</text>
+  </object>
+  <object>
+    <name>text</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>207</xmin>
+      <ymin>116</ymin>
+      <xmax>315</xmax>
+      <ymax>147</ymax>
+    </bndbox>
+    <text>วันที่ 30</text>
+  </object>
+  <object>
+    <name>text</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>310</xmin>
+      <ymin>123</ymin>
+      <xmax>486</xmax>
+      <ymax>147</ymax>
+    </bndbox>
+    <text>มิถุนายน 2568</text>
+  </object>
+  <object>
+    <name>text</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>112</xmin>
+      <ymin>148</ymin>
+      <xmax>583</xmax>
+      <ymax>181</ymax>
+    </bndbox>
+    <text>ณ โรงแรมทีเค. พาเลซ แอนด์ คอนเวนชั้น กรุงเทพฯ</text>
+  </object>
+</annotation>

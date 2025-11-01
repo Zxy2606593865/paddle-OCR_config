@@ -1,0 +1,236 @@
+[
+    {
+        "bbox": [
+            [
+                42,
+                80
+            ],
+            [
+                815,
+                140
+            ]
+        ],
+        "text": "Quand les chaussures seront-elles"
+    },
+    {
+        "bbox": [
+            [
+                39,
+                163
+            ],
+            [
+                259,
+                219
+            ]
+        ],
+        "text": "en stock?"
+    },
+    {
+        "bbox": [
+            [
+                40,
+                339
+            ],
+            [
+                764,
+                403
+            ]
+        ],
+        "text": "Livraison pr é vue dans 10 jours."
+    },
+    {
+        "bbox": [
+            [
+                39,
+                418
+            ],
+            [
+                219,
+                478
+            ]
+        ],
+        "text": "Eh bien"
+    },
+    {
+        "bbox": [
+            [
+                43,
+                600
+            ],
+            [
+                798,
+                658
+            ]
+        ],
+        "text": "Alors de votre cöt é , dites-moi à"
+    },
+    {
+        "bbox": [
+            [
+                108,
+                694
+            ],
+            [
+                271,
+                733
+            ]
+        ],
+        "text": "avance"
+    },
+    {
+        "bbox": [
+            [
+                38,
+                857
+            ],
+            [
+                630,
+                925
+            ]
+        ],
+        "text": "Vous pouvez choisir entre"
+    },
+    {
+        "bbox": [
+            [
+                36,
+                935
+            ],
+            [
+                723,
+                999
+            ]
+        ],
+        "text": "r é servation ou notification d'"
+    },
+    {
+        "bbox": [
+            [
+                37,
+                1016
+            ],
+            [
+                238,
+                1079
+            ]
+        ],
+        "text": "arriv é e"
+    },
+    {
+        "bbox": [
+            [
+                43,
+                1198
+            ],
+            [
+                703,
+                1252
+            ]
+        ],
+        "text": "Alors choisissez de mon cöt é"
+    },
+    {
+        "bbox": [
+            [
+                46,
+                1284
+            ],
+            [
+                600,
+                1338
+            ]
+        ],
+        "text": "pour r é server une paire"
+    },
+    {
+        "bbox": [
+            [
+                40,
+                1453
+            ],
+            [
+                785,
+                1521
+            ]
+        ],
+        "text": "Ok, alors je vais vous donner une"
+    },
+    {
+        "bbox": [
+            [
+                40,
+                1542
+            ],
+            [
+                157,
+                1593
+            ]
+        ],
+        "text": "note"
+    },
+    {
+        "bbox": [
+            [
+                34,
+                1804
+            ],
+            [
+                819,
+                1881
+            ]
+        ],
+        "text": "De quelle taille avez-vous besoin?"
+    },
+    {
+        "bbox": [
+            [
+                43,
+                1896
+            ],
+            [
+                71,
+                1925
+            ]
+        ],
+        "text": "*"
+    },
+    {
+        "bbox": [
+            [
+                0,
+                2124
+            ],
+            [
+                9,
+                2152
+            ]
+        ],
+        "text": "шК"
+    },
+    {
+        "bbox": [
+            [
+                11,
+                2256
+            ],
+            [
+                229,
+                2319
+            ]
+        ],
+        "text": "…"
+    },
+    {
+        "bbox": [
+            [
+                888,
+                2262
+            ],
+            [
+                941,
+                2320
+            ]
+        ],
+        "text": "+"
+    }
+]

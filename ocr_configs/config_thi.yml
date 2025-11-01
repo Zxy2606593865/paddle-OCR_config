@@ -1,0 +1,72 @@
+
+
+# --- Part 1: 核心功能模块 (SubModules) ---
+# 本部分定义了OCR的核心处理流程，通常包含“检测”、“方向分类”、“识别”三个子模块。
+SubModules:
+
+  # --- 模块 1.1: TextDetection (文本检测) ---
+  # 功能: 负责在输入的图像中定位所有可能包含文本的区域，并输出它们的边界框。
+  TextDetection:
+    box_thresh: 0.1             # 检测框置信度阈值：一个候选框内所有像素点的平均得分必须高于此值，才会被认为是一个有效的文本区域。
+    limit_side_len: 64            # 边长限制：主要在训练时使用，用于将图片尺寸调整到此值的倍数。
+    limit_type: min               # 边长限制类型：与 `limit_side_len` 配合使用，'min' 表示保证图像最短边不小于该值。
+    max_side_limit: 2000       # 最大边长限制：在推理（预测）时，如果输入图片的最长边超过此值，图片会被等比例缩放，以防止显存溢出。
+    model_dir: './model/PP-OCRv5_server_det_infer'               # [占位符] 模型路径：此处需要填写实际的文本检测模型文件夹的路径。`null` 表示当前为空。
+    model_name: PP-OCRv5_server_det # 模型名称：内部使用的模型名称标识。
+    module_name: text_detection   # 模块名称：内部使用的模块名称标识。
+    thresh: 0.3                   # 像素得分阈值：在模型输出的概率图中，得分高于此值的像素点才被认为是文本像素的一部分。
+    unclip_ratio: 1.5             # 文本框扩张系数：对初步检测到的文本框进行一定比例的向外扩张，以确保框住完整的文字，避免边缘字符被截断。
+
+  # --- 模块 1.2: TextLineOrientation (文本行方向分类) ---
+  # 功能: 判断每个检测到的文本行是0度（正向）还是180度（倒置）。
+  TextLineOrientation:
+    batch_size: 6                 # 批处理大小：在使用GPU时，一次性并行处理的文本框数量。
+    model_dir: null              # [占位符] 模型路径：此处需要填写方向分类模型的文件夹路径。`null` 表示当前为空。
+    model_name: PP-LCNet_x1_0_textline_ori # 模型名称：内部使用的模型名称标识。
+    module_name: textline_orientation   # 模块名称：内部使用的模块名称标识。
+
+  # --- 模块 1.3: TextRecognition (文本识别) ---
+  # 功能: 对每个定位到的文本框进行内容识别，将其从图像像素转换为文字字符串。
+  TextRecognition:
+    batch_size: 6                 # 批处理大小：在使用GPU时，一次性并行处理的文本框数量。
+    model_dir: './model/th_PP-OCRv5_mobile_rec_infer'             # [占位符] 模型路径：此处需要填写实际的、特定语言的文本识别模型文件夹的路径。`null` 表示当前为空。
+    rec_char_dict_path: './model/th_PP-OCRv5_mobile_rec_infer/th_dict.txt'
+    model_name: th_PP-OCRv5_mobile_rec # 模型名称：内部使用的模型名称标识，这里默认为英文移动端模型。
+    module_name: text_recognition   # 模块名称：内部使用的模块名称标识。
+    score_thresh: 0.0             # 识别结果置信度阈值：此处设置为0.0，表示模型本身不过滤任何低分结果，将所有原始结果输出，交由后续的程序逻辑来筛选。
+# --- Part 2: 子流程 (SubPipelines) ---
+# 本部分定义由多个子模块组合而成的、更复杂的处理流程。
+SubPipelines:
+  # --- 子流程 2.1: DocPreprocessor (文档预处理器) ---
+  # 功能: 专门用于处理扫描文档类图像，进行方向校正和弯曲校正等。
+  DocPreprocessor:
+    # 预处理器内部包含的子模块。
+    SubModules:
+      DocOrientationClassify:
+        model_dir: null               # [占位符] 整页文档方向分类模型的路径。
+        model_name: PP-LCNet_x1_0_doc_ori
+        module_name: doc_text_orientation
+      DocUnwarping:
+        model_dir: null               # [占位符] 文档弯曲校正模型的路径。
+        model_name: UVDoc
+        module_name: image_unwarping
+    # 子流程的名称标识。
+    pipeline_name: doc_preprocessor
+    # 子流程内部的开关：是否启用方向分类功能。
+    use_doc_orientation_classify: false
+    # 子流程内部的开关：是否启用弯曲校正功能。
+    use_doc_unwarping: false
+
+
+# --- Part 3: 顶层流程控制 (Top-Level Controls) ---
+# 本部分是整个产业线的最高级别开关，决定了启用哪些大的功能模块。
+pipeline_name: OCR                # 主流程的名称标识。
+text_type: general              # 文本类型，'general' 表示这是一个通用的OCR流程。
+
+# 总开关：是否启用上面定义的“文档预处理器”（DocPreprocessor）子流程。
+# `true` 表示启用，会对所有图片先进行文档校正处理。
+use_doc_preprocessor: false
+
+# 总开关：是否启用上面定义的“文本行方向分类”（TextLineOrientation）模块。
+# `true` 表示启用，会对每个检测到的文本框进行180度方向判断。
+use_textline_orientation: false

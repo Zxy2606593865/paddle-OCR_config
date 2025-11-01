@@ -1,0 +1,613 @@
+[
+    {
+        "bbox": [
+            [
+                78,
+                28
+            ],
+            [
+                975,
+                81
+            ]
+        ],
+        "text": "Appel dOffres pour la Renovation de la-"
+    },
+    {
+        "bbox": [
+            [
+                83,
+                100
+            ],
+            [
+                816,
+                140
+            ]
+        ],
+        "text": "Fleuriste Jardin de Roses a Paris"
+    },
+    {
+        "bbox": [
+            [
+                80,
+                225
+            ],
+            [
+                467,
+                261
+            ]
+        ],
+        "text": "I. Contexte du Projet."
+    },
+    {
+        "bbox": [
+            [
+                80,
+                300
+            ],
+            [
+                1091,
+                326
+            ]
+        ],
+        "text": "La fleuriste Jardin de Roses est situee sur le boulevard Saint-Germain, dans le Marais parisien,"
+    },
+    {
+        "bbox": [
+            [
+                80,
+                333
+            ],
+            [
+                1092,
+                358
+            ]
+        ],
+        "text": "et exerce depuis plus de 15 ans. Avec une superficie de 8o m2, ce local en rez-de-chaussée face a la"
+    },
+    {
+        "bbox": [
+            [
+                80,
+                366
+            ],
+            [
+                1093,
+                391
+            ]
+        ],
+        "text": "Fue necessite une renovation complete pour repondre a l augrnentation du flot de clients et al .."
+    },
+    {
+        "bbox": [
+            [
+                82,
+                401
+            ],
+            [
+                1094,
+                424
+            ]
+        ],
+        "text": "Avolution des attentes esthetiques. L objectif est de creer un espace alliant le romantisme fran-"
+    },
+    {
+        "bbox": [
+            [
+                81,
+                432
+            ],
+            [
+                1090,
+                458
+            ]
+        ],
+        "text": "Gais et I esthetique moderne de la fleuristerie, en conservant les clients fideles tout en attirant-"
+    },
+    {
+        "bbox": [
+            [
+                81,
+                466
+            ],
+            [
+                732,
+                491
+            ]
+        ],
+        "text": "Une clientele plus jeune et en renforcant I image de marque."
+    },
+    {
+        "bbox": [
+            [
+                82,
+                557
+            ],
+            [
+                457,
+                595
+            ]
+        ],
+        "text": "II. Besoins du Projet."
+    },
+    {
+        "bbox": [
+            [
+                82,
+                664
+            ],
+            [
+                513,
+                695
+            ]
+        ],
+        "text": "I. Fonctionnalitis requises"
+    },
+    {
+        "bbox": [
+            [
+                89,
+                730
+            ],
+            [
+                1106,
+                753
+            ]
+        ],
+        "text": ".Zone dExposition des Fleurs : Prخvpir des vitrines frigorifiques prpfessionnelles pour les fleurs-"
+    },
+    {
+        "bbox": [
+            [
+                114,
+                758
+            ],
+            [
+                1122,
+                783
+            ]
+        ],
+        "text": "Fragiles, ainsi que des خtageres ouvertes pour presenter des bouquets coupes et des plantes en pots."
+    },
+    {
+        "bbox": [
+            [
+                107,
+                783
+            ],
+            [
+                702,
+                808
+            ]
+        ],
+        "text": ". Lsclairage doit mettre en valeur les couleurs et la texture."
+    },
+    {
+        "bbox": [
+            [
+                88,
+                830
+            ],
+            [
+                1087,
+                853
+            ]
+        ],
+        "text": ".Zone de Preparation Florale : Equiper un banc de travail avee des armoires a outils, offrant un-"
+    },
+    {
+        "bbox": [
+            [
+                115,
+                859
+            ],
+            [
+                1123,
+                882
+            ]
+        ],
+        "text": "espace suffisant pour la composition de bouquets et de corbeilles, avec une prganisation logique des-"
+    },
+    {
+        "bbox": [
+            [
+                116,
+                884
+            ],
+            [
+                254,
+                905
+            ]
+        ],
+        "text": "Flux de travail."
+    },
+    {
+        "bbox": [
+            [
+                88,
+                927
+            ],
+            [
+                1091,
+                952
+            ]
+        ],
+        "text": ".Zone dExperience Client Installer des siiges confortables avee des livres et des magazines."
+    },
+    {
+        "bbox": [
+            [
+                114,
+                954
+            ],
+            [
+                1118,
+                978
+            ]
+        ],
+        "text": "Floraux, permettant aux clients de se reposer, de choisir des fleurs et de participer a des ateliers de-"
+    },
+    {
+        "bbox": [
+            [
+                113,
+                980
+            ],
+            [
+                227,
+                1004
+            ]
+        ],
+        "text": "fleuristerie."
+    },
+    {
+        "bbox": [
+            [
+                88,
+                1303
+            ],
+            [
+                1122,
+                1327
+            ]
+        ],
+        "text": ".Caisse et Rangement : Placer le cornptoir de caisse pour une utilisation facile, avec des espaces de-"
+    },
+    {
+        "bbox": [
+            [
+                114,
+                1331
+            ],
+            [
+                1102,
+                1355
+            ]
+        ],
+        "text": "Stockage pour les matiriaux d'enballage et les fleurs de reserve, organises pour un accis rapide."
+    },
+    {
+        "bbox": [
+            [
+                81,
+                1408
+            ],
+            [
+                378,
+                1441
+            ]
+        ],
+        "text": "2. Style esthetique."
+    },
+    {
+        "bbox": [
+            [
+                82,
+                1481
+            ],
+            [
+                1035,
+                1504
+            ]
+        ],
+        "text": "Le design devra privilegier le style champftre frangais, avec des teintes pastel, des plantes-"
+    },
+    {
+        "bbox": [
+            [
+                81,
+                1512
+            ],
+            [
+                1088,
+                1540
+            ]
+        ],
+        "text": "grimpantes et des details naturels. Integrer du mobilier en bois vintage, des étagغres en fer forg."
+    },
+    {
+        "bbox": [
+            [
+                79,
+                1545
+            ],
+            [
+                830,
+                1570
+            ]
+        ],
+        "text": "A et des rideaux en dentelle pour renforcer I atmosphere romantique."
+    },
+    {
+        "bbox": [
+            [
+                82,
+                1636
+            ],
+            [
+                704,
+                1674
+            ]
+        ],
+        "text": "IIl. Exemple de Projet Residentiel."
+    },
+    {
+        "bbox": [
+            [
+                82,
+                1713
+            ],
+            [
+                1077,
+                1738
+            ]
+        ],
+        "text": "Un projet similaire sur la Rive Gauche a reamenage un local de meme taille en trois zones cles-"
+    },
+    {
+        "bbox": [
+            [
+                86,
+                1764
+            ],
+            [
+                1125,
+                1792
+            ]
+        ],
+        "text": ". Mur d Exposition Arque : Vitrines frigorifiques en verre et bois pour les fleurs saisonnieres rares "
+    },
+    {
+        "bbox": [
+            [
+                86,
+                1812
+            ],
+            [
+                1119,
+                1840
+            ]
+        ],
+        "text": ". Banc de Travail ouvert : Sous un lustre vintage, avec des crochets muraux pour les outils floraux "
+    },
+    {
+        "bbox": [
+            [
+                87,
+                1862
+            ],
+            [
+                1107,
+                1887
+            ]
+        ],
+        "text": ".Coin Detente : Fauteuils en rotin et table basse, avec des tissus a motifs de fleurs et des tableaux."
+    },
+    {
+        "bbox": [
+            [
+                114,
+                1890
+            ],
+            [
+                259,
+                1913
+            ]
+        ],
+        "text": "Sur fond floral."
+    },
+    {
+        "bbox": [
+            [
+                79,
+                1938
+            ],
+            [
+                1057,
+                1966
+            ]
+        ],
+        "text": "Les materiaux utilises incluaient du carrelage ancien en gris clair, des murs peints en rose pa-"
+    },
+    {
+        "bbox": [
+            [
+                81,
+                1975
+            ],
+            [
+                1071,
+                1998
+            ]
+        ],
+        "text": "le avec du papier peint vintageHf3, et un eclairage combinant des bandeaux LEDet des spots."
+    },
+    {
+        "bbox": [
+            [
+                81,
+                2006
+            ],
+            [
+                1035,
+                2032
+            ]
+        ],
+        "text": "ajustables. Le projet a augmente le flux de clients de 40 o, devenant un lieufT-F populaire."
+    },
+    {
+        "bbox": [
+            [
+                82,
+                2097
+            ],
+            [
+                626,
+                2136
+            ]
+        ],
+        "text": "IV. Specifications Techniques"
+    },
+    {
+        "bbox": [
+            [
+                85,
+                2170
+            ],
+            [
+                759,
+                2197
+            ]
+        ],
+        "text": "I. Delai de Travail : 6o jours a compter de la signature du contrat."
+    },
+    {
+        "bbox": [
+            [
+                86,
+                2218
+            ],
+            [
+                1123,
+                2244
+            ]
+        ],
+        "text": "2. Materiaux  Tous les materiaux doivent respecter les normes frangaises d'innocuite, notamnment les-"
+    },
+    {
+        "bbox": [
+            [
+                118,
+                2249
+            ],
+            [
+                1123,
+                2269
+            ]
+        ],
+        "text": "Peintures et la colle. Les vitrines doivent garantir une lurniere transparente et ure isolation thermigLe."
+    },
+    {
+        "bbox": [
+            [
+                117,
+                2272
+            ],
+            [
+                457,
+                2294
+            ]
+        ],
+        "text": "I le bois doit etre de haute qualite."
+    },
+    {
+        "bbox": [
+            [
+                116,
+                2365
+            ],
+            [
+                167,
+                2415
+            ]
+        ],
+        "text": "ا"
+    },
+    {
+        "bbox": [
+            [
+                795,
+                2377
+            ],
+            [
+                829,
+                2401
+            ]
+        ],
+        "text": "م"
+    },
+    {
+        "bbox": [
+            [
+                110,
+                2439
+            ],
+            [
+                175,
+                2474
+            ]
+        ],
+        "text": "THf"
+    },
+    {
+        "bbox": [
+            [
+                300,
+                2442
+            ],
+            [
+                434,
+                2469
+            ]
+        ],
+        "text": "FWord"
+    },
+    {
+        "bbox": [
+            [
+                544,
+                2440
+            ],
+            [
+                634,
+                2472
+            ]
+        ],
+        "text": "15لJ"
+    },
+    {
+        "bbox": [
+            [
+                754,
+                2442
+            ],
+            [
+                869,
+                2470
+            ]
+        ],
+        "text": "Fz"
+    },
+    {
+        "bbox": [
+            [
+                1007,
+                2441
+            ],
+            [
+                1066,
+                2472
+            ]
+        ],
+        "text": "َ"
+    }
+]

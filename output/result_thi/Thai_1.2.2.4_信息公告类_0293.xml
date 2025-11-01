@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<annotation>
+  <folder>result_thi</folder>
+  <filename>Thai_1.2.2.4_信息公告类_0293.jpg</filename>
+  <path>D:\paddple_ocr\output\result_thi\Thai_1.2.2.4_信息公告类_0293.xml</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>800</width>
+    <height>450</height>
+  </size>
+  <depth>3</depth>
+  <segmented>0</segmented>
+  <object>
+    <name>text</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>226</xmin>
+      <ymin>213</ymin>
+      <xmax>570</xmax>
+      <ymax>244</ymax>
+    </bndbox>
+    <text>wwsjamtrafficcom</text>
+  </object>
+  <object>
+    <name>text</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>312</xmin>
+      <ymin>287</ymin>
+      <xmax>509</xmax>
+      <ymax>340</ymax>
+    </bndbox>
+    <text>ห้ามจอดวันคี่</text>
+  </object>
+  <object>
+    <name>text</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>313</xmin>
+      <ymin>337</ymin>
+      <xmax>505</xmax>
+      <ymax>371</ymax>
+    </bndbox>
+    <text>06.00-20.00 น.</text>
+  </object>
+  <object>
+    <name>text</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>318</xmin>
+      <ymin>369</ymin>
+      <xmax>502</xmax>
+      <ymax>405</ymax>
+    </bndbox>
+    <text>(6AM- 8PM)</text>
+  </object>
+</annotation>

@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<annotation>
+  <folder>result_thi</folder>
+  <filename>Thai_1.2.2.4_信息公告类_0307.jpg</filename>
+  <path>D:\paddple_ocr\output\result_thi\Thai_1.2.2.4_信息公告类_0307.xml</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>480</width>
+    <height>640</height>
+  </size>
+  <depth>3</depth>
+  <segmented>0</segmented>
+  <object>
+    <name>text</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>271</xmin>
+      <ymin>258</ymin>
+      <xmax>463</xmax>
+      <ymax>284</ymax>
+    </bndbox>
+    <text>aเวทีประชุมประชาคมหมู่บ้าน</text>
+  </object>
+  <object>
+    <name>text</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>302</xmin>
+      <ymin>292</ymin>
+      <xmax>451</xmax>
+      <ymax>306</ymax>
+    </bndbox>
+    <text>วามคิดเห็นของประชาชน</text>
+  </object>
+  <object>
+    <name>text</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>332</xmin>
+      <ymin>316</ymin>
+      <xmax>468</xmax>
+      <ymax>332</ymax>
+    </bndbox>
+    <text>ประจาปงบประมาณ พ.ศ.2566</text>
+  </object>
+  <object>
+    <name>text</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>289</xmin>
+      <ymin>339</ymin>
+      <xmax>454</xmax>
+      <ymax>360</ymax>
+    </bndbox>
+    <text>คำาบสจักรสีท์ อำเภอเมืองสิงห์บุธี จังหวัตสิงหุนุธี</text>
+  </object>
+</annotation>

@@ -1,0 +1,48 @@
+# --- Part 1: 后处理过滤器参数 (PostProcessing) ---
+#
+# ## 功能说明 ##
+#   本部分的参数定义了一套“过滤器”，用于从OCR引擎返回的原始结果中筛选出您需要的高质量文本行。
+#   这些设置直接影响最终输出的JSON和XML文件的内容。
+
+PostProcessing:
+
+  # ----------------------------------------------------------------------
+  # 参数名: min_confidence (最低置信度)
+  # 作用:   OCR引擎对每个识别结果都会给出一个信心分数(0.0 ~ 1.0)。
+  #         任何分数低于此“门槛”的识别结果都将被直接丢弃。
+  min_confidence: 0.5
+
+  # ----------------------------------------------------------------------
+  # 参数名: min_text_length (最短文本长度)
+  # 作用:   去除首尾空格后，字符数量少于此值的识别结果将被丢弃。
+  min_text_length: 1
+
+  # ----------------------------------------------------------------------
+  # 参数名: min_area_ratio (最小面积比例)
+  # 作用:   识别出的文本框面积与整张图片总面积之比小于此值的，将被丢弃。
+  #         主要用于过滤掉极小的、可能是噪点的识别结果。
+  min_area_ratio: 0.00001
+
+
+# --- Part 2: 模型库清单 (Models) ---
+#
+# ## 功能说明 ##
+#   本部分是您的“可用工具清单”。它将一个语言名称（如 "thai"）
+#   精确地映射到该语言所使用的“产业线配置文件”(.yml) 的路径。
+#   程序启动时会读取这里的完整列表，并在命令行中展示给您选择。
+#
+# ## 如何扩展 ##
+#   当您想支持新语言时，只需在这里添加新的一行，例如:
+#   german: './configs/config_german.yml'
+
+Models:
+  # [注意]: 这里的路径是相对于 Python 脚本所在位置的相对路径。
+#  russian: './configs/config_russian.yml'
+#  arabic: './configs/config_arabic.yml'
+#  english: './configs/config_english.yml'
+#  japan: './configs/config_japan.yml'
+#  korean: './configs/config_korean.yml'
+#  Spanish: './configs/config_spanish.yml'
+#  french: './configs/config_french.yml'
+  thai: './ocr_configs/config_thi.yml'
+#  vietnamese: './configs/config_vietnamese.yml'
