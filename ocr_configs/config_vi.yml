@@ -29,7 +29,7 @@ SubModules:
   # 功能: 对每个定位到的文本框进行内容识别，将其从图像像素转换为文字字符串。
   TextRecognition:
     batch_size: 6                 # 批处理大小：在使用GPU时，一次性并行处理的文本框数量。
-    model_dir: './model/th_PP-OCRv5_mobile_rec_infer'             # [占位符] 模型路径：此处需要填写实际的、特定语言的文本识别模型文件夹的路径。`null` 表示当前为空。
+    model_dir: './model/latin_PP-OCRv5_mobile_rec_infer'             # [占位符] 模型路径：此处需要填写实际的、特定语言的文本识别模型文件夹的路径。`null` 表示当前为空。
     model_name: th_PP-OCRv5_mobile_rec # 模型名称：内部使用的模型名称标识，这里默认为英文移动端模型。
     module_name: text_recognition   # 模块名称：内部使用的模块名称标识。
     score_thresh: 0.0             # 识别结果置信度阈值：此处设置为0.0，表示模型本身不过滤任何低分结果，将所有原始结果输出，交由后续的程序逻辑来筛选。

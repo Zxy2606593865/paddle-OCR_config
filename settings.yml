@@ -45,4 +45,4 @@ Models:
 #  Spanish: './configs/config_spanish.yml'
 #  french: './configs/config_french.yml'
   thai: './ocr_configs/config_thi.yml'
-#  vietnamese: './configs/config_vietnamese.yml'
+  vietnamese: './ocr_configs/config_vi.yml'
